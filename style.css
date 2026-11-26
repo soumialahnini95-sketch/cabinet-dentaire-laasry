@@ -54,3 +54,9 @@ header nav a:not(.pill):hover::after,header nav a:not(.pill):focus-visible::afte
   header nav .pill{text-align:center;margin-top:15px;padding:14px 18px}
 }
 @media(max-width:390px){header .brand img{width:36px}header .brand{font-size:17px}header .brand small{font-size:9px}}
+
+/* Final editorial refinements */
+.reviews-invite{margin:2rem auto 0;padding:clamp(1.5rem,4vw,3rem);max-width:740px;background:rgba(181,148,93,.07);border:1px solid rgba(181,148,93,.3);text-align:center;border-radius:4px}
+.reviews-invite h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:.6rem auto 1rem}
+.reviews-invite p{margin:0 auto 1.5rem;max-width:40rem}.reviews-symbol{font-size:2rem;color:#b99b65}
+.social-link[aria-disabled="true"]{opacity:.35;pointer-events:none}
